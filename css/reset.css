@@ -1,0 +1,54 @@
+/**
+ * @Name     pc样式初始化
+ * @Author   zzc452@163.com
+ * @DateTime 2018-11-20
+ */
+@charset "utf-8";
+*{margin:0;padding:0;}
+html{font-size:14px;color:#333333;font-family:'Microsoft Yahei','Helvetica Neue',Helvetica,STHeiTi,Arial,sans-serif;}
+body{background:#f2f5f8;min-width:1200px;}
+ol,ul{list-style:none;}
+li{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:none;vertical-align:middle;-ms-interpolation-mode:bicubic;}
+a{text-decoration:none;outline:none;}
+a:active{outline:none;text-align:none;}
+.clear:after{content:'.';clear:both;display:block;height:0;visibility:hidden;line-height:0}
+
+/*清除浮动，兼容ie6/7*/
+.clear{*zoom:1}
+.col-l{float:left;}
+.col-r{float:right;}
+.inline-block{display:inline-block;*zoom:1;*display:inline;}
+
+/*设置行内块，兼容ie6/7*/
+em,i{font-style:normal;}
+input,button{outline:none;border:0;box-sizing:content-box;}
+textarea{outline:none;border:0;resize:none;}
+
+/* 设置placeholder默认颜色 */
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ /* WebKit browsers */
+color:#ccc;}
+input:-moz-placeholder,textarea:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+color:#ccc;opacity:1;}
+input::-moz-placeholder,textarea::-moz-placeholder{ /* Mozilla Firefox 19+ */
+color:#ccc;opacity:1;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{ /* Internet Explorer 10+ */
+color:#ccc;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

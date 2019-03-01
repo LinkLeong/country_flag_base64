@@ -1,0 +1,51 @@
+/**
+ * @Name     外汇天眼登录部分样式
+ * @Author   zzc452@163.com
+ * @DateTime 2018-11-20
+ */
+
+/* 登录页样式 */
+.public-login-bg{position:absolute;left:0;top:0;width:100%;min-height:100%;background-color:#d0d0d0}
+.g-wp{width:1200px;margin:0 auto;}
+.public-header-box{padding-top:36px;}
+.public-header-box .col-l{width:162px;}
+.public-header-box .col-l img{width:100%;}
+.public-header-box .col-r{font-size:0;}
+.public-header-box .col-r li{float:left;margin-left:20px;height:46px;line-height:45px;background:#f4c830;font-size:16px;color:#3d1000;text-align:center;border-radius:23px;padding:0 22px;min-width:136px;}
+.public-header-box .col-r li>a{color:#3d1000;}
+.public-header-box .col-r li:hover{background:#ffdd67;}
+.public-header-box .col-r .select-box{background-color:#f0f0f0;padding:0 10px;width:auto;min-width: 116px; overflow:hidden;}
+.public-header-box .col-r .select-box:hover{background-color:#f4c830;}
+.public-header-box .col-r i{display:inline-block;width:16px;height:20px;vertical-align:middle;background:url(../images/login_icons.png);background-repeat:no-repeat;margin-right:10px;}
+.public-header-box .col-r i.icon-phone{width:16px;height:20px;background-position:-57px 0;}
+.public-header-box .col-r i.icon-pc{width:23px;height:20px;background-position:0 0;}
+.public-header-box .col-r .select-box .icon-house{display:inline-block;margin-top:-3px;width:18px;height:20px;vertical-align:middle;background:url(../images/icon_house.png) center no-repeat;}
+.public-header-box .col-r .select-box a{display:inline-block;height:47px;line-height:46px;width:100%;font-size:16px;color:#3d1000;text-decoration:none;}
+.public-header-box .col-r i{display:inline-block;width:16px;height:20px;vertical-align:middle;background:url(../images/login_icons.png);background-repeat:no-repeat;margin-right:10px;}
+.public-header-box .col-r i.icon-phone{width:16px;height:20px;background-position:-57px 0;}
+.public-header-box .col-r i.icon-pc{width:23px;height:20px;background-position:0 0;}
+
+
+
+
+/* 区号选择弹框 */
+.area-code-bg{position:fixed;left:0;top:0;width:100%;height:100%;background:url(../images/pop_bg.png) 0 0 repeat;z-index:99;}
+.area-code-bg .area-code-box{position:absolute;left:50%;top:50%;width:450px;height:650px;background:#fff;border-radius:5px;margin-left:-225px;margin-top:-325px;}
+.area-code-bg .area-code-box .area-code-nav{float:left;width:24px;height:650px;text-align:center;border-right:1px solid #eeeeee;}
+.area-code-box .area-code-nav ul{padding-top:44px;}
+.area-code-box .area-code-nav li{height:22px;line-height:22px;font-size:12px;color:#666666;cursor:pointer;}
+.area-code-box .area-code-nav li.on{background:#ffe795;}
+.area-code-box .area-code-nav li:hover{background:#ffe795;}
+.area-code-bg .area-code-content{width:450px;}
+.area-code-content .area-code-titlt{height:47px;line-height:47px;}
+.area-code-content .area-code-titlt .btn-close{float:right;margin-top:15px;cursor:pointer;margin-right:15px;width:14px;height:14px;line-height: 14px;
+    font-size: 24px;
+    color: #666;}
+.area-code-content .area-code-body{height:600px;overflow-y:scroll;}
+.area-code-content .area-code-body dd{height:36px;line-height:36px;padding:0 13px 0 15px;font-size:12px;color:#333333;cursor:pointer;}
+.area-code-content .area-code-body dd.on{background:#ffe795;}
+.area-code-content .area-code-body dd:hover{background:#ffe795;}
+.area-code-content .area-code-body dd img{width:31px;height:19px;margin-right:8px;}
+.area-code-content .area-code-body dt{height:44px;line-height:44px;font-size:12px;color:#999999;margin-left:15px;border-bottom:1px solid #eeeeee;}
+.area-code-content .recommend-code dd{background:#f7f7fb;}
+.area-code-content .recommend-code dd i{float:right;color:#f4cf5a;}
